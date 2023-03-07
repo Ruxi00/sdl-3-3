@@ -59,10 +59,15 @@ print(sentence2)
 
 #PCTC 2023 R0 Q5
 
-units = input()
+word = input()
 
-units == "metric";
-mass = int(input())
-formatted_mass = f"{mass} kg"
+if word == "metric":
+  kg = input()
+  print(kg, "kg")
 
-print(formatted_mass)
+else: 
+  stone = input()
+  pounds = input()
+  print(stone, "st", pounds, "lbs")
+
+ 
